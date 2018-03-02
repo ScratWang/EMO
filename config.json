@@ -1,0 +1,35 @@
+{
+    "server": {
+        "port": "80"
+    },
+    "wechat": {
+        "base_url": "https://api.weixin.qq.com/",
+        "appid": "wx9398da05271658b7",
+        "secret": "f8c8354c72636034f1116492c8cd1106",
+        "token": "Scrat",
+        "menu":  {
+            "button":[
+                {    
+                    "type":"view",
+                    "name":"搜索1",
+                    "url":"http://www.soso.com/"
+                },
+                {
+                    "name":"菜单",
+                    "sub_button":[
+                        {    
+                            "type":"view",
+                            "name":"搜索2",
+                            "url":"http://www.soso.com/"
+                        },
+                        {    
+                            "type":"view",
+                            "name":"搜索3",
+                            "url":"http://www.soso.com/"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

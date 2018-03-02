@@ -10,9 +10,6 @@
 		"type": "git",
 		"url": "git+https://github.com/ScratWang/EMO.git"
 	},
-	"keywords": [
-		"ruozheng2016"
-	],
 	"author": "Scrat",
 	"license": "ISC",
 	"bugs": {

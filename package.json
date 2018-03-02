@@ -1,0 +1,32 @@
+{
+	"name": "emo",
+	"version": "1.0.0",
+	"description": "文化娱乐艺术人才展示平台",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ScratWang/EMO.git"
+	},
+	"keywords": [
+		"ruozheng2016"
+	],
+	"author": "Scrat",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ScratWang/EMO/issues"
+	},
+	"homepage": "https://github.com/ScratWang/EMO#readme",
+	"dependencies": {
+		"axios": "^0.18.0",
+		"koa": "^2.5.0",
+		"koa-bodyparser": "^4.2.0",
+		"koa-logger": "^3.1.0",
+		"koa-router": "^7.4.0",
+		"koa-xml-body": "^2.0.0",
+		"sha1": "^1.1.1",
+		"xml2js": "^0.4.19"
+	}
+}
